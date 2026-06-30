@@ -1128,7 +1128,7 @@ body {
 
 /* --- Codepen Sections Styling --- */
 .cp-wrapper {
-    background-color: #d3eefe;
+    background-color: #dedede;
     width: 100%;
     overflow: hidden;
 }
@@ -1167,6 +1167,7 @@ body {
     flex-direction: column;
     text-align: center;
     position: relative;
+
 }
 
 .first-section .images-wrapper {
@@ -1181,7 +1182,7 @@ body {
     top: 420px;
 }
 
-.section_1_01 { position: absolute; top: 20px; right: -150px; }
+.section_1_01 { position: absolute; top: 20px; right: -130px; }
 .section_1_02 { position: absolute; top: 90px; right: -20px; }
 .section_1_03 { position: absolute; top: 110px; right: -150px; }
 .section_1_04 { position: absolute; top: 210px; right: -30px; }
@@ -1222,6 +1223,10 @@ body {
     justify-content: center;
     position: relative;
     padding: 0 5%;
+    background-image: url('images/pizza-background-img.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .third-content {
